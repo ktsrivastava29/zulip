@@ -496,6 +496,11 @@ export function process_tab_key() {
         return emoji_picker.navigate("tab");
     }
 
+    if ($("#compose-send-button").is(":focus")) {
+        $(".compose_upload_file").trigger("focus");
+        return true;
+    }
+
     return false;
 }
 
