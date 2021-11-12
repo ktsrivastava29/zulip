@@ -468,6 +468,10 @@ input.recipient_box {
     margin-top: 10px;
 }
 
+.formatting_button {
+    font-size: 12px !important;
+}
+
 a.compose_control_button {
     padding: 5px;
     display: block;
