@@ -459,6 +459,11 @@ input.recipient_box {
         padding: 0 4px;
         align-self: center;
     }
+
+    .divider {
+        color: hsla(0, 0%, 100%, 0.5);
+        font-size: 20px;
+    }
 }
 
 .compose_right_float_container {
